@@ -21,11 +21,11 @@ require './companySerializer'
 
 #endpoints
 get '/' do
-	#'Hej, her sker der ikke noget. Kaldene går gennem: /api/v1/companies'
-	headers['GET'] = "curl http://localhost:xxxx/api/v1/companies or curl http://localhost:xxxx/api/v1/companies/:id"
-  headers['POST'] = "curl -i -X POST -H 'Content-Type: application/json' -d '{'name':'xxx',...}' http://localhost:xxxx/api/v1/companies"
-  headers['DELETE'] = "curl -i -X DELETE -H 'Content-Type: application/json' http://localhost:xxxx/api/v1/companies/:id"
-  puts headers # show headers on this request
+	'Hej, her sker der ikke noget. Kaldene går gennem: /api/v1/companies'
+	#headers['GET'] = "curl http://localhost:xxxx/api/v1/companies or curl http://localhost:xxxx/api/v1/companies/:id"
+  #headers['POST'] = "curl -i -X POST -H 'Content-Type: application/json' -d '{'name':'xxx',...}' http://localhost:xxxx/api/v1/companies"
+  #headers['DELETE'] = "curl -i -X DELETE -H 'Content-Type: application/json' http://localhost:xxxx/api/v1/companies/:id"
+  #puts headers # show headers on this request
 end
 
 namespace '/api/v1' do
