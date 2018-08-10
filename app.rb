@@ -3,6 +3,7 @@ require "sinatra/namespace" #see gemfile for info
 require "sinatra/cors"
 require 'mongoid'
 
+
 #db setup
 Mongoid.load!("mongoid.yml")
 
