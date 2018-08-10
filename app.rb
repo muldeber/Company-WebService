@@ -4,7 +4,7 @@ require "sinatra/cors"
 require 'mongoid'
 
 #db setup
-Mongoid.load! "mongoid.config"
+Mongoid.load! "mongoid.yml"
 
 #model
 require './company' #must be after Bundler.require, as Company requires DataMapper
