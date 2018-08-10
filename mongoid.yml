@@ -1,6 +1,13 @@
-production:
+development:
   clients:
     default:
       database: company_dev
       hosts:
         - localhost:27017
+
+#development:
+#  clients:
+#    default:
+#      database: company_db
+#      hosts:
+#        - mongodb://default_user:1easypass@ds119072.mlab.com:19072/company_db
